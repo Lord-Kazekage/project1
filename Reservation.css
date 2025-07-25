@@ -1,0 +1,476 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.navmain {
+  box-shadow: 3px 0 3px 0 rgb(190, 189, 189);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body {
+  background-color: #f9f9f9;
+}
+#hotel {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  margin-left: 8rem;
+  color: #e67e22;
+}
+.nav-items {
+  display: inline-block;
+  margin-left: 8rem;
+}
+.image {
+  display: inline-block;
+  margin-left: 8rem;
+}
+.imgcont {
+  display: inline-block;
+  margin-left: 3rem;
+}
+.nli,
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 18px;
+  font-size: 17px;
+  color: #333;
+}
+li > a:hover,
+a.active {
+  color: #e67e22;
+}
+
+img[alt="Shopping icon"] {
+  cursor: pointer;
+}
+.btnlog {
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e67e22;
+  color: white;
+  padding: 8px 23px 8px 19px;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btnlog:hover {
+  background-color: #d35400;
+}
+/* navbar end */
+.main-1 {
+  padding: 50px 20px;
+  text-align: center;
+  line-height: 1.9;
+}
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 34px;
+}
+.cont-t {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+#form {
+  background-color: #ffff;
+  width: 30%;
+  padding: 20px;
+  line-height: 3;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+}
+
+label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  display: block;
+}
+input[placeholder="Enter full name"] {
+  padding: 14px 46px;
+  width: 95%;
+  border: 2px solid rgb(226, 224, 224);
+  background-color: #ffffff;
+  border-radius: 4px;
+  outline: none;
+}
+.inpp {
+  transition: border-color 0.3s;
+}
+.inpp:focus {
+  outline: none;
+  border-color: 1px solid #ff6b6b;
+}
+
+.pos {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+input[placeholder="Enter Your Email"] {
+  padding: 14px 46px;
+  width: 95%;
+  border: 2px solid rgb(226, 224, 224);
+  background-color: #ffffff;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[placeholder="Enter Your phone number"] {
+  padding: 14px 46px;
+  width: 95%;
+  border: 2px solid rgb(226, 224, 224);
+  background-color: #ffffff;
+  border-radius: 4px;
+  outline: none;
+}
+.sec-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lst {
+  font-size: 18px;
+  color: rgb(67, 67, 67);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.select-man {
+  display: inline-block;
+}
+.sel {
+  display: inline-block;
+  padding: 14px;
+}
+option {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+.sel > select {
+  padding: 12px;
+}
+.inp {
+  display: inline-block;
+  margin-left: 1.6rem;
+  pad: 14px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp > input {
+  padding: 12px;
+}
+.text {
+  width: 95%;
+  height: 6rem;
+  border: none;
+  padding: 6px;
+  outline: none;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.texta-main textarea:focus {
+  outline: none;
+  border-color: #ff6b6b;
+}
+.btnbook {
+  padding: 16px 90px;
+  margin-top: 1rem;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 7px;
+}
+.cart-man {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffff;
+  padding: 14px;
+  width: 95%;
+  line-height: 3;
+  border-radius: 19px;
+}
+.ophr {
+  border-bottom: 1px solid rgb(213, 213, 213);
+}
+.info-main {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 19px;
+  padding: 20px;
+  line-height: 1.8;
+  margin-top: 1rem;
+  list-style-position: inside;
+  background-color: #ffff;
+}
+
+.contant-main {
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 19px;
+  margin-top: 1rem;
+  line-height: 1.7;
+  background-color: #ffff;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 2rem;
+}
+.tit2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e67e22;
+}
+#pop::before {
+  content: "📍";
+}
+#phone::before {
+  content: "📞";
+}
+#envolop::before {
+  content: "📧";
+}
+.footer-main {
+  color: white;
+  display: inline-block;
+  margin-left: 12rem;
+  padding: 30px;
+  line-height: 2;
+}
+.ftfoot {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.tit2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e67e22;
+}
+/* Responsive */
+@media (max-width: 988px) {
+  #hotel {
+    text-wrap: nowrap;
+  }
+  .image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 574px) {
+  .navmain {
+    display: block;
+  }
+  li > a {
+    margin-top: 0.3rem;
+  }
+  .image {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 596px) {
+  .image {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 10px 0;
+  }
+  .imgcont {
+    width: 30px;
+  }
+  .btnlog {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 929px) {
+  #form {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  #form {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #form {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .two-inp-flex {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  .sec-main {
+    display: block;
+  }
+
+  #form {
+    background-color: #ffff;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    line-height: 3;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    margin-bottom: 1rem;
+  }
+  .cart-man {
+    width: 65%;
+    display: block;
+    margin: 1rem auto;
+  }
+  .info-main {
+    margin-top: 1rem;
+    width: 60%;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .contant-main {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cart-man {
+    width: 90% !important;
+  }
+  .info-main {
+    width: 90% !important;
+  }
+  .contant-main {
+    width: 90% !important;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 580px) {
+  .cart-man > h2,
+  .info-main > h2 {
+    font-size: 18px !important;
+  }
+  .ophr {
+    font-size: 14px !important;
+  }
+  .lst {
+    font-size: 14px !important;
+  }
+  .title {
+    font-size: 22px !important;
+  }
+  .cont-t {
+    font-size: 14px;
+  }
+}
+@media (max-width: 988px) {
+  #hotel {
+    text-wrap: nowrap;
+  }
+  .image {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 574px) {
+  .navmain {
+    display: block !important;
+  }
+  li > a {
+    margin-top: 0.3rem !important;
+  }
+  .image {
+    margin-top: 0.6rem !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .tit {
+    font-size: 17px !important;
+  }
+  .tit2 {
+    font-size: 15px !important;
+  }
+  #pop {
+    font-size: 15px !important;
+  }
+  .ftfoot {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .image {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 10px 0 !important;
+  }
+  .imgcont {
+    width: 30px !important;
+  }
+  .btnlog {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 557px) {
+  .footer-main {
+    margin: auto !important;
+    line-height: 1.5 !important;
+    padding: 16px !important;
+  }
+  #content {
+    font-size: 20px;
+  }
+  @media (max-width: 695px) {
+    .btnlog {
+      font-size: 13px !important;
+    }
+
+    .imgcont {
+      width: 30px !important;
+    }
+    #hotel {
+      font-size: 21px !important;
+    }
+    li > a {
+      font-size: small !important;
+    }
+  }
+  #hotel {
+    text-align: center !important;
+  }
+}

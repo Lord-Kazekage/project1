@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservation page</title>
+  <link rel="icon" href="./icons/5-stars.png" type="png" />
+  <link rel="stylesheet" href="Reservation.css">
+</head>
+
+<body>
+  <nav class="navmain">
+    <h1 id="hotel">Hotel Del Luna</h1>
+    <ul type="none" class="nav-items">
+      <li class="nli"><a href="index.html">Home</a></li>
+      <li class="nli"><a href="Menu.html">Menu</a></li>
+      <li class="nli"><a href="#" class="active">Reservation</a></li>
+      <li class="nli"><a href="Order Tracking.html">Order Tracking</a></li>
+      <li class="nli"><a href="Contact Us.html">Contact US</a></li>
+    </ul>
+
+    <div class="image">
+      <a href="you cart.html" class="imgcont"><img src="./icons/cart-shopping-solid.svg" alt="Shopping icon"
+          width="45"></a>
+      <a href="login.html" class="imgcont"> <button class="btnlog">Login</button></a>
+    </div>
+  </nav>
+  <div class="main-1">
+    <h1 class="title">Make a Reservation</h1>
+    <p class="cont-t">Book your table and enjoy a delightful dining experience</p>
+  </div>
+  <section class="sec-main">
+    <form action="" id="form">
+      <div class="inp-main">
+        <label for="fullname">Full Name</label>
+        <div style="position: relative;">
+          <img src="./icons/user-solid.svg" alt="" class="pos" width="18">
+          <input type="text" required placeholder="Enter full name" name="fullname" id="fullname" class="inpp"/>
+        </div>
+      </div>
+      <!-- 2nd input -->
+      <div class="inp-main">
+        <label for="email">Email Address</label>
+        <div style="position: relative;">
+          <img src="./icons/envelope-solid black.svg" alt="" class="pos" width="18">
+          <input type="email" placeholder="Enter Your Email" id="email" name="email" class="inpp"/>
+        </div>
+      </div>
+      <!-- 3rd input -->
+      <div class="inp-main">
+        <label for="ph">Phone Number</label>
+        <div style="position: relative;">
+          <img src="./icons/phone-solid black.svg" alt="" class="pos" width="18">
+          <input type="phone" placeholder="Enter Your phone number" id="ph" name="ph" class="inpp"/>
+        </div>
+      </div>
+      <div class="two-inp-flex">
+        <div class="inp">
+          <label for="">Date</label>
+          <input type="date" />
+        </div>
+        <div class="inp">
+          <label for="">Time</label>
+          <input type="time" />
+        </div>
+      </div>
+      <div class="select-man">
+        <div class="sel">
+          <label for="">Number of Guests</label>
+          <select name="" id="select-1" required>
+            <option value="" selected>Select number of guest</option>
+            <option value="1">1 Person</option>
+            <option value="2">2 person</option>
+            <option value="3">3 person</option>
+            <option value="4">4 person</option>
+            <option value="5">5 person</option>
+            <option value="6">6 person</option>
+            <option value="7">7 person</option>
+            <option value="8">8 person</option>
+            <option value="9">9 person</option>
+            <option value="10">10 person</option>
+            <option value="11">More than 10</option>
+          </select>
+        </div>
+        <!-- 2nd select tag -->
+        <div class="sel">
+          <label for="">Table Prefrence</label>
+          <select name="" id="select-2" required>
+            <option value="" selected>Select Table Prefrence</option>
+            <option value="window">Window Table</option>
+            <option value="indoor">Indoor Table</option>
+            <option value="outdoor">Outdoor Table</option>
+            <option value="private">Private Room</option>
+            <option value="any">Any Available</option>
+          </select>
+        </div>
+      </div>
+      <!-- textarea -->
+      <div class="texta-main">
+        <label for="req">Specail Requests</label>
+        <textarea class="text" name="req" id="req" placeholder="Any special Requests or Requirements?"></textarea>
+      </div>
+      <button type="button" class="btnbook">Book Table</button>
+    </form>
+
+
+    <div class="cart-info-main">
+      <div class="cart-man">
+        <h2 class="ttv">Opening Hours</h2>
+        <div class="ophr">
+          <span>Monday - Friday</span>
+          <span>11:00 AM - 10:00 PM</span>
+        </div>
+        <!-- 2nd -->
+        <div class="ophr">
+          <span>Saturday</span>
+          <span>10:00 AM - 11:00 PM</span>
+        </div>
+        <!-- 3rd -->
+        <div class="ophr">
+          <span>Sunday</span>
+          <span>10:00 AM - 9:00 PM</span>
+        </div>
+      </div>
+      <!-- information -->
+      <div class="info-main">
+        <h2 class="ttv">Reservation Policy</h2>
+        <ul type="circle">
+          <li class="lst">Reservations can be made up to 30 days in advance</li>
+          <li class="lst">Please arrive within 15 minutes of your reservation time</li>
+          <li class="lst">For groups larger than 10, please contact us directly</li>
+          <li class="lst">
+            Cancellations must be made at least 2 hours before the reservation
+            time
+          </li>
+        </ul>
+      </div>
+
+      <div class="contant-main">
+        <h3>Contact</h3>
+        <p>
+          <img src="./icons/phone-solid.svg" alt="phone icon" width="20" style="padding: 0 8px; margin-top:22px;" />
+          +923480387608
+        </p>
+        <p>
+          <img src="./icons/envelope-solid.svg" alt="email icon" width="20"
+            style="padding: 0 8px; margin-top:22px;" />Reservation@HotelDelLuna.com
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="foot">
+    <div class="footer-main">
+      <h3 class="tit2">Visit Us</h4>
+        <p id="pop"> 123 Food Street, City, Country</p>
+    </div>
+
+    <div class="footer-main">
+      <h3 class="tit2">Contact Us</h4>
+        <p id="phone">+1 234 567 890 <br>
+        <p id="envolop"> info@delluna.com</p>
+        </p>
+    </div>
+
+    <div class="footer-main">
+      <h3 class="tit2">Follow Us</h4>
+        <div class="footerm2">
+          <a href="https://www.facebook.com/" target="_blank"><img src="./icons/facebook-brands.svg" alt="facebook icon" width="22"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="./icons/instagram-brands.svg" alt="instagram icon" width="30"></a>
+          <a href="https://x.com/" target="_blank"><img src="./icons/twitter-brands.svg" alt="twitter icon" width="30"></a>
+        </div>
+    </div>
+    <hr style="color: rgb(138, 137, 137);">
+    <div class="ftfoot">
+      &copy;2025 Hotel Del Luna All Rights Reserved
+    </div>
+  </footer>
+</body>
+
+</html>
